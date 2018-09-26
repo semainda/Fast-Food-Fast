@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Food Categories | Fast-Food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
-    <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../static/css/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <script src="script/main.js"></script>
 </head>
@@ -18,15 +18,15 @@
         <nav id="main-nav">
          <span class="the-title">The Fast Food Restaurant</span>
             <ul>
-                <li><a href="../index.html" class="current">Home</a></li>
-                <li><a href="#">Offers</a></li>
-                <li><a href="foods.html">Foods</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="sign_in.html">Sign in</a></li>
-                <li><a href="sign_up.html">Sign up</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="categories.html" class="current">Categories</a></li>
+                <li><a href="meals.html">Meals</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="../sign_in.html">Sign Out</a></li>
             </ul>
         </nav>
         <div id="food-category">
+            <a href="add_category.html" class="AddItem"><i class="fa fa-plus-square"></i> Category</a>
             <table>
                 <tr>
                     <th>Id</th>
@@ -39,22 +39,22 @@
                     <td>001</td>
                     <td>BBQ chicken</td>
                     <td>Served with chips</td>
-                    <td class="data-action"><a href="edit_fast_food_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
-                    <td class="data-action"><a href="fast_food_categories.html"><i class="fa fa-trash-o"></i></a></td>
+                    <td class="data-action"><a href="edit_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
+                    <td class="data-action"><a href="categories.html"><i class="fa fa-trash-o"></i></a></td>
                 </tr>
                 <tr class="data-items">
                     <td>002</td>
                     <td>BBQ chicken</td>
                     <td>Served with chips</td>
-                    <td class="data-action"><a href="edit_fast_food_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
-                    <td class="data-action"><a href="fast_food_categories.html"><i class="fa fa-trash-o"></i></a></td>
+                    <td class="data-action"><a href="edit_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
+                    <td class="data-action"><a href="categories.html"><i class="fa fa-trash-o"></i></a></td>
                 </tr>
                 <tr class="data-items">
                     <td>003</td>
                     <td>BBQ chicken</td>
                     <td>Served with chips</td>
-                    <td class="data-action"><a href="edit_fast_food_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
-                    <td class="data-action"><a href="fast_food_categories.html"><i class="fa fa-trash-o"></i></a></td>
+                    <td class="data-action"><a href="edit_category.html"><i class="fa fa-pencil-square-o"></i></a></td>
+                    <td class="data-action"><a href="categories.html"><i class="fa fa-trash-o"></i></a></td>
                 </tr>
             </table>
         </div>       
@@ -62,5 +62,6 @@
             <span>Copyright &copy; 2018 - <a href="https://andela.com/" target="_blank">Andela</a> Kenya Bootcamp Challenge One</span>
         </footer>
     </div>
+    <script src="../static/scripts/category.js"></script>
 </body>
 </html>
