@@ -71,7 +71,7 @@ body {
     font-size: 50px;
 }
 
-#shop a.order-now, #food-gallary a.load-more {
+#shop a.order-now, #food-gallary a.load-more, .AddItem {
     display: block;
     color: #8f746c;
     text-decoration: none;
@@ -83,7 +83,18 @@ body {
     margin: 15px auto;
 }
 
-#shop a.order-now:hover, #food-gallary a.load-more:hover {
+a.AddItem {
+    margin-top: 0;
+    margin-right: 0;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #8f746c;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#shop a.order-now:hover, #food-gallary a.load-more:hover, .AddItem:hover {
     color: #fff;
     background-color: #8f746c;
 }
@@ -265,7 +276,7 @@ select {
     width: 100%;
 }
 
-button[type="submit"] {
+button[type="submit"], button[type="button"] {
     display: block;
     float: right;
     padding: 10px;
